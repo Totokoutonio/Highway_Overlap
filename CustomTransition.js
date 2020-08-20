@@ -8,7 +8,7 @@ class Overlap extends Highway.Transition {
       from.style.position = 'absolute';
       to.style.animation = "overlapTest 1s";      
       
-      let timeremove = setTimeout(() => from.remove(), 700)
+      let timeremove = setTimeout(() => from.remove(), 1200)
       
       done();
   }
