@@ -1,0 +1,34 @@
+@keyframes overlapTest {
+    from{        
+        transform: translateX(100vw);
+    }
+    
+    to{
+        transform: translateX(0);
+    }    
+}
+
+header{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column ;
+} 
+
+header div , footer div{
+    margin:auto
+}
+
+nav{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    background-color: lightgreen;
+    height: 10vh
+}
+
+main{
+    height: 60vh;
+    background-color: lightyellow;
+}
