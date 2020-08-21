@@ -8,10 +8,20 @@
     }    
 }
 
+body{
+    overflow: hidden;
+}
+
+body.transitions-active{
+    pointer-events: none;
+}
+
+
 header{
     background-color: lightblue;
     display: flex;
     flex-direction: column ;
+    height: 20vh;
 } 
 
 header div , footer div{
@@ -25,10 +35,16 @@ nav{
 footer{
     display: flex;
     background-color: lightgreen;
-    height: 10vh
+    height: 10vh;
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    right: 0;
 }
 
 main{
     height: 60vh;
     background-color: lightyellow;
+    position: absolute;
+    
 }
